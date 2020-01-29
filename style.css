@@ -1,0 +1,36 @@
+.container {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(99, 96, 96);
+}
+form {
+    margin-top: 50px;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    color: rgb(39, 37, 37);
+    
+}
+input:focus {
+    outline: none !important;
+}
+
+.valid {
+    border-color: #36cc36;
+}
+.invalid {
+    border-color: crimson;
+}
+
+input.valid + p {
+    color: #36cc36;
+    margin-top: 10px;
+}
+
+input.invalid + p {
+    color:crimson ;
+    margin-top: 10px;
+}
